@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .bg-image {
-            background-image: url('scale_1200_Казнь.png');
+            background-image: url('your-image-url.jpg');
+            /* Замените на URL вашей картинки */
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -28,9 +29,18 @@
         <nav class="bg-gray-900 fixed w-full z-20 top-0 start-0 bg-gray-800 bg-opacity-70 backdrop-blur-md">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Logo</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Batars</span>
                 </a>
                 <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a class="mx-4" href="https://t.me/mngbatars" target="_blank" rel="nofollow" aria-label="Telegram"
+                        title="Telegram" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg"
+                            role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm21.977-68.056c.386-4.38-4.24-2.576-4.24-2.576-3.415 1.414-6.937 2.85-10.497 4.302-11.04 4.503-22.444 9.155-32.159 13.734-5.268 1.932-2.184 3.864-2.184 3.864l8.351 2.577c3.855 1.16 5.91-.129 5.91-.129l17.988-12.238c6.424-4.38 4.882-.773 3.34.773l-13.49 12.882c-2.056 1.804-1.028 3.35-.129 4.123 2.55 2.249 8.82 6.364 11.557 8.16.712.467 1.185.778 1.292.858.642.515 4.111 2.834 6.424 2.319 2.313-.516 2.57-3.479 2.57-3.479l3.083-20.226c.462-3.511.993-6.886 1.417-9.582.4-2.546.705-4.485.767-5.362Z"
+                                fill="#ffffff" />
+                        </svg>
+                    </a>
                     <a href="#form"
                         class="text-white bg-gray-700 hover:bg-gray-800 focus:ring-1 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-4 py-2 text-center">Начать
                         сейчас</a>
@@ -71,15 +81,15 @@
         
 
 
+
+
         <!-- Background Image Section -->
-        <!-- <div class="bg-image parallax flex items-center justify-center text-white">
-            <h2 class="text-4xl">Ваш текст поверх картинки</h2>
-        </div> -->
+
         <div class="relative bg-cover bg-center h-screen bg-no-repeat"
-            style="background-image: url('./assets/scale_1200_Казнь.png');">
+            style="background-image: url('/assets/scale_1200_Казнь.png');">
             <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Затемнение -->
             <div class="flex flex-col items-center justify-center h-full relative z-10">
-                <h2 class="text-4xl text-white">Logo — ваш помощник в регистрации бизнеса</h2>
+                <h2 class="text-4xl text-white">Batars — ваши финансы - наша работа!</h2>
                 <div class="h-1 w-48 bg-white rounded-full mb-4 mt-5"></div>
                 <p class="text-2xl font-light text-white">Мы бесплатно позаботимся о всех аспектах открытия вашего дела!
                 </p>
@@ -88,25 +98,54 @@
 
         <!-- Этапы работы -->
         <section id="steps" class="py-20 bg-white">
-            <div class="container mx-auto">
-                <h2 class="text-center text-2xl mb-10">Этапы работы</h2>
+            <!-- Дебетовые карты этапы -->
+            <div class="mb-8 px-4">
+                <div class="flex justify-center mb-4">
+                    <h2 class="font-bold text-2xl">Дебетовые карты:</h2>
+                </div>
                 <div class="flex justify-between items-center">
                     <div class="flex flex-col items-center">
                         <div class="bg-gray-900 rounded-full w-10 h-10 flex items-center justify-center text-white">1
                         </div>
-                        <p class="mt-2">Заявка</p>
+                        <p class="text-wrap mt-2 w-40">Подбор подходящего варианта</p>
                     </div>
                     <div class="flex-1 h-1 bg-gray-900 mx-4 mb-5 rounded-full"></div>
                     <div class="flex flex-col items-center">
                         <div class="bg-gray-900 rounded-full w-10 h-10 flex items-center justify-center text-white">2
                         </div>
-                        <p class="mt-2">Подготовка документов</p>
+                        <p class="mt-2">Заявка</p>
                     </div>
                     <div class="flex-1 h-1 bg-gray-900 mx-4 mb-5 rounded-full"></div>
                     <div class="flex flex-col items-center">
                         <div class="bg-gray-900 rounded-full w-10 h-10 flex items-center justify-center text-white">3
                         </div>
-                        <p class="mt-2">Подписание</p>
+                        <p class="mt-2">Получение</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Кредитные карты и МФО этапы -->
+            <div class="px-4">
+                <div class="flex justify-center mb-4">
+                    <h2 class="font-bold text-2xl">Кредитные карты и микрофинансирование:</h2>
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-900 rounded-full w-10 h-10 flex items-center justify-center text-white">1
+                        </div>
+                        <p class="text-wrap mt-2 w-40">Подбор подходящего варианта</p>
+                    </div>
+                    <div class="flex-1 h-1 bg-gray-900 mx-4 mb-5 rounded-full"></div>
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-900 rounded-full w-10 h-10 flex items-center justify-center text-white">2
+                        </div>
+                        <p class="mt-2">Заявка</p>
+                    </div>
+                    <div class="flex-1 h-1 bg-gray-900 mx-4 mb-5 rounded-full"></div>
+                    <div class="flex flex-col items-center">
+                        <div class="bg-gray-900 rounded-full w-10 h-10 flex items-center justify-center text-white">3
+                        </div>
+                        <p class="mt-2">Обратная связь от банка</p>
                     </div>
                     <div class="flex-1 h-1 bg-gray-900 mx-4 mb-5 rounded-full"></div>
                     <div class="flex flex-col items-center">
@@ -115,36 +154,14 @@
                         <p class="mt-2">Получение</p>
                     </div>
                 </div>
+
             </div>
+
+
+           
         </section>
 
-        <!-- Наши банки партнеры -->
-        <!-- <section class="py-20 bg-gray-100">
-            <div class="container mx-auto">
-                <h2 class="text-center text-2xl mb-10">Наши банки партнеры</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div class="bg-white p-4 rounded shadow">
-                        <img src="bank1.jpg" alt="Банк 1" class="w-full h-32 object-cover rounded">
-                        <h3 class="text-lg font-semibold mt-2">Банк 1</h3>
-                        <p class="text-gray-900">Краткое описание банка 1.</p>
-                        <a href="#" class="mt-2 inline-block bg-gray-900 text-white rounded py-2 px-4">Заказать услугу</a>
-                    </div>
-                    <div class="bg-white p-4 rounded shadow">
-                        <img src="bank2.jpg" alt="Банк 2" class="w-full h-32 object-cover rounded">
-                        <h3 class="text-lg font-semibold mt-2">Банк 2</h3>
-                        <p class="text-gray-900">Краткое описание банка 2.</p>
-                        <a href="#" class="mt-2 inline-block bg-gray-900 text-white rounded py-2 px-4">Заказать услугу</a>
-                    </div>
-                    <div class="bg-white p-4 rounded shadow">
-                        <img src="bank3.jpg" alt="Банк 3" class="w-full h-32 object-cover rounded">
-                        <h3 class="text-lg font-semibold mt-2">Банк 3</h3>
-                        <p class="text-gray-900">Краткое описание банка 3.</p>
-                        <a href="#" class="mt-2 inline-block bg-gray-900 text-white rounded py-2 px-4">Заказать услугу</a>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
+        
         <section id="services" class="pt-10 bg-gray-100">
             <div class="container mx-auto">
                 <section class="py-20 bg-gray-100">
@@ -155,7 +172,7 @@
 
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="bank1.jpg" alt="mts" class="w-full h-32 object-cover rounded">
+                                <img src="./assets/debit/mtsDebet.jpg" alt="mts" class="w-full h-32 object-cover rounded">
                                 <h3 class="text-lg font-semibold my-2">МТС Банк - Дебетовая карта «МТС Деньги»</h3>
 
                                 <ul class="text-gray-900 list-disc list-inside mb-2">
@@ -213,7 +230,7 @@
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="bank2.jpg" alt="vtb" class="w-full h-32 object-cover rounded">
+                                <img src="./assets/debit/vtbDebet.jpg" alt="vtb" class="w-full h-32 object-cover rounded">
                                 <h3 class="text-lg font-semibold mt-2">Банк ВТБ - Дебетовая карта ВТБ</h3>
                                 <p class="text-gray-900">Преимущества:</p>
                                 <ul class="text-gray-900 list-disc list-inside mb-2">
@@ -239,7 +256,7 @@
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="bank3.jpg" alt="gazp" class="w-full h-32 object-cover rounded">
+                                <img src="./assets/debit/gazpromDebet.jpg" alt="gazp" class="w-full h-32 object-cover rounded">
                                 <h3 class="text-lg font-semibold mt-2">ГазпромБанк - Дебетовая карта «Мир»</h3>
                                 <p class="text-gray-900">Преимущества карты:</p>
                                 <ul class="text-gray-900 list-disc list-inside mb-2">
@@ -273,7 +290,7 @@
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="bank4.jpg" alt="fora" class="w-full h-32 object-cover rounded">
+                                <img src="./assets/debit/foreDebet.jpg" alt="fora" class="w-full h-32 object-cover rounded">
                                 <h3 class="text-lg font-semibold mt-2">Фора-Банк - Дебетовая карта МИР «Все включено»
                                 </h3>
                                 <p class="text-gray-900">Преимущества:</p>
@@ -303,7 +320,7 @@
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="bank5.jpg" alt="sovkom" class="w-full h-32 object-cover rounded">
+                                <img src="./assets/debit/sovkDebet.jpg" alt="sovkom" class="w-full h-32 object-cover rounded">
                                 <h3 class="text-lg font-semibold mt-2">Совкомбанк - Дебетовая карта с кешбэком</h3>
                                 <p class="text-gray-900">Преимущества:</p>
                                 <ul class="text-gray-900 list-disc list-inside">
@@ -327,6 +344,27 @@
                                         услугу</a>
                                 </div>
                             </div>
+                            <div class="bg-white p-4 rounded shadow">
+                                <img src="./assets/debit/tinkDebet.jpg" alt="sovkom" class="w-full h-32 object-cover rounded">
+                                <h3 class="text-lg font-semibold mt-2">Т-Банк — Black</h3>
+                                <p class="text-gray-900">Кэшбэк в рублях — до 30% по спецпредложениям от партнеров:</p>
+                                <ul class="text-gray-900 list-disc list-inside">
+                                    <!-- <li>Кэшбэк до 30%</li>
+                                    <li>Повышенный кэшбэк на популярные категории (образование, топливо, дом и ремонт,
+                                        аптеки, медицина, рестораны и кафе, детские товары и т.д.)</li> -->
+                                    <li>Обслуживание бесплатно (если на карте, вкладах, накопительных и брокерских счетах каждый день в сумме хранится не менее 50 000 ₽), в остальных случаях 99 руб в месяц.</li>
+                                    <li>Возможность выбора 4-х любимых категорий каждый месяц с повышенным кэшбеком 15%.</li>
+                                    <li>Бесплатная виртуальная карта с моментальным выпуском и бесплатным обслуживанием.
+                                    </li>
+                                </ul>
+                                <p class="text-gray-900">Tinkoff Black — главная дебетовая карта Тинькофф, с кэшбэком в рублях и процентом на остаток. Универсальна для получения зарплаты, пособий, пенсий, оплаты повседневных покупок и решения финансовых задач. </p>
+                                
+                                <div class="flex justify-center mt-4">
+                                    <a href="#"
+                                        class="inline-block bg-gray-900 hover:bg-gray-800 focus:ring-2 focus:outline-none focus:ring-gray-300 text-white rounded py-3 px-4">Заказать
+                                        услугу</a>
+                                </div>
+                            </div>
                         </div>
 
                         <!-- Кредитные карты -->
@@ -334,7 +372,8 @@
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/credit/uralSib.png" alt="uralsib" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/credit/uralSib.png" alt="uralsib"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Уралсиб Банк - Кредитная карта «120 дней»</h3>
                                 <p class="text-gray-900">Преимущества для клиентов:</p>
                                 <ul class="text-gray-900 list-disc list-inside">
@@ -353,7 +392,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/credit/zenit.png" alt="zenit" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/credit/zenit.png" alt="zenit"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Банк Зенит - кредитная карта с кешбэком</h3>
                                 <p class="text-gray-900">Преимущества кредитной карты:</p>
                                 <ul class="text-gray-900 list-disc list-inside">
@@ -372,7 +412,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/credit/sber.png" alt="sberbank" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/credit/sber.png" alt="sberbank"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">СберБанк - кредитная карта</h3>
                                 <p class="text-gray-900">Преимущества Кредитной СберКарты:</p>
                                 <ul class="text-gray-900 list-disc list-inside">
@@ -391,7 +432,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/credit/akbars.png" alt="akbars" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/credit/akbars.png" alt="akbars"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Ак Барс - Кредитная карта 115 дней</h3>
                                 <p class="text-gray-900">Преимущества для клиентов:</p>
                                 <ul class="text-gray-900 list-disc list-inside">
@@ -416,7 +458,8 @@
                         <h2 class="text-center text-2xl my-10">Микрофинансирование</h2>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/zaymer.png" alt="Займер" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/zaymer.png" alt="Займер"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Займер - Онлайн займы на карту</h3>
                                 <p class="text-gray-900">Способ получения займа:</p>
                                 <ul class="text-gray-900 list-disc list-inside" style="margin: 2;">
@@ -433,7 +476,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/zaymigo.png" alt="Zaymigo" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/zaymigo.png" alt="Zaymigo"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Zaymigo - Моментальные онлайн займы</h3>
                                 <p class="text-gray-900">Информация о продукте:</p>
                                 <ul class="text-gray-900 list-disc list-inside" style="margin: 2;">
@@ -454,7 +498,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/amoney.png" alt="АДеньги" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/amoney.png" alt="АДеньги"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">АДеньги - Условия получения займов</h3>
                                 <p class="text-gray-900">Условия получения займов:</p>
                                 <ul class="text-gray-900 list-disc list-inside">
@@ -474,7 +519,8 @@
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/finterra.png" alt="ФИНТЕРРА" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/finterra.png" alt="ФИНТЕРРА"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">ФИНТЕРРА - Первый заём на 21 день бесплатно</h3>
                                 <p class="text-gray-900">Способ выдачи:</p>
                                 <ul class="text-gray-900 list-disc list-inside" style="margin: 2;">
@@ -490,7 +536,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/boostra.png" alt="Boostra" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/boostra.png" alt="Boostra"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Boostra - Микрозаймы по городам России</h3>
                                 <p class="text-gray-900">Типы займов:</p>
                                 <ul class="text-gray-900 list-disc list-inside" style="margin: 2;">
@@ -513,7 +560,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/moneyMan.png" alt="MoneyMan" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/moneyMan.png" alt="MoneyMan"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">MoneyMan - Микрофинансовая организация</h3>
                                 <p class="text-gray-900">Способ выдачи:</p>
                                 <ul class="text-gray-900 list-disc list-inside" style="margin: 2;">
@@ -528,7 +576,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/smsFinance.png" alt="Смсфинанс" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/smsFinance.png" alt="Смсфинанс"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Смсфинанс - Быстрые займы</h3>
                                 <p class="text-gray-900">Почему именно смсфинанс?</p>
                                 <ul class="text-gray-900 list-disc list-inside" style="margin: 2;">
@@ -558,7 +607,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/maxCredit.png" alt="Max.Credit" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/maxCredit.png" alt="Max.Credit"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">Max.Credit - Быстрый займ на банковскую карту
                                 </h3>
                                 <p class="text-gray-900">Условия получения займа:</p>
@@ -581,7 +631,8 @@
                             </div>
 
                             <div class="bg-white p-4 rounded shadow">
-                                <img src="./assets/mfo/migCredit.png" alt="МигКредит" class="w-full h-32 object-contain rounded">
+                                <img src="./assets/mfo/migCredit.png" alt="МигКредит"
+                                    class="w-full h-32 object-contain rounded">
                                 <h3 class="text-lg font-semibold mt-2">МигКредит - Условия получения займов</h3>
                                 <p class="text-gray-900">Общие условия получения займов:</p>
                                 <ul class="text-gray-900 list-disc list-inside" style="margin: 2;">
@@ -621,10 +672,10 @@
                                     class="bg-gray-500 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center mr-5">
                                     1
                                 </div>
-                                <h3 class="font-semibold text-xl pt-2">Вам не придётся идти в ФНС и МФЦ</h3>
+                                <h3 class="font-semibold text-xl pt-2">Удобство</h3>
                             </div>
-                            
-                            <p>Заявка на открытие, вы сможете заполнить дистанционно, используя паспорт, ИНН, СНИЛС.</p>
+
+                            <p>Простая навигация сайта.</p>
                         </div>
 
                         <div class="bg-gradient-to-br from-gray-800 to-gray-600 p-4 rounded-2xl shadow text-white">
@@ -633,10 +684,10 @@
                                     class="bg-gray-500 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center mr-5">
                                     2
                                 </div>
-                                <h3 class="font-semibold text-xl pt-2">Помощь вашему успеху</h3>
+                                <h3 class="font-semibold text-xl pt-2">Быстрое оформление</h3>
                             </div>
 
-                            <p>Мы стремимся помочь вам запустить бизнес как можно быстрее и проще.</p>
+                            <p>Оставить заявку вы можете за 5 минут.</p>
                         </div>
 
                         <div class="bg-gradient-to-br from-gray-800 to-gray-600 p-4 rounded-2xl shadow text-white">
@@ -645,9 +696,9 @@
                                     class="bg-gray-500 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center mr-5">
                                     3
                                 </div>
-                                <h3 class="font-semibold text-xl pt-2">Опыт</h3>
+                                <h3 class="font-semibold text-xl pt-2">Помощь в вашем оформлении</h3>
                             </div>
-                            <p>Мы хорошо знаем все юридические требования для регистрации бизнеса в вашей юрисдикции.
+                            <p>Мы стремимся помочь вам с оформлением продуктов в кратчайшие сроки.
                             </p>
                         </div>
 
@@ -657,10 +708,11 @@
                                     class="bg-gray-500 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center mr-5">
                                     4
                                 </div>
-                                <h3 class="font-semibold text-xl pt-2">Быстрая регистрация</h3>
+                                <h3 class="font-semibold text-xl pt-2">Вам не придется выходить из дома</h3>
                             </div>
 
-                            <p>Через 3-5 дней вы получите письмо о регистрации ИП на e-mail.</p>
+                            <p class="text-wrap">Все, что представлено в нашем каталоге услуг, имеет возможность
+                                оформления дистанционно.</p>
                         </div>
 
                         <div class="bg-gradient-to-br from-gray-800 to-gray-600 p-4 rounded-2xl shadow text-white">
@@ -671,8 +723,7 @@
                                 </div>
                                 <h3 class="font-semibold text-xl pt-2">Бесплатная консультация</h3>
                             </div>
-                            <p>Мы предлагаем бесплатную консультацию, чтобы обсудить потребности вашей
-                                бизнес-регистрации и ответить на любые вопросы, которые у вас могут быть.</p>
+                            <p>Мы предлагаем бесплатную консультацию, чтобы обсудить все ваши запросы к продукту.</p>
                         </div>
 
                         <div class="bg-gradient-to-br from-gray-800 to-gray-600 p-4 rounded-2xl shadow text-white">
@@ -683,9 +734,8 @@
                                 </div>
                                 <h3 class="font-semibold text-xl pt-2">Индивидуальный подход</h3>
                             </div>
-                            
-                            <p>Мы будем тесно сотрудничать с вами, чтобы убедиться, что регистрация вашего бизнеса
-                                пройдет правильно и эффективно.
+
+                            <p>Мы будем тесно сотрудничать с вами ,чтобы убедиться, что вы подобрали нужный вам вариант.
                             </p>
                         </div>
 
@@ -699,19 +749,21 @@
                     <h2 class="text-center text-2xl mb-10">Отзывы</h2>
                     <div class="flex overflow-x-auto flex-wrap justify-evenly">
                         <div class="bg-white p-4 rounded shadow w-64 my-4">
-                            <img src="avatar1.jpg" alt="Аватар 1" class="w-16 h-16 rounded-full mx-auto">
-                            <h3 class="font-semibold text-center">Имя</h3>
-                            <p class="text-gray-900">текст отзыва.</p>
+
+                            <h3 class="font-semibold text-center">Ильгиз:</h3>
+                            <p class="text-gray-900">Удобно, что есть возможность консультации по продуктам.</p>
                         </div>
                         <div class="bg-white p-4 rounded shadow w-64 my-4">
-                            <img src="avatar2.jpg" alt="Аватар 2" class="w-16 h-16 rounded-full mx-auto">
-                            <h3 class="font-semibold text-center">Имя</h3>
-                            <p class="text-gray-900">текст отзыва.</p>
+
+                            <h3 class="font-semibold text-center">Татьяна:</h3>
+                            <p class="text-gray-900">Попала в непредвиденную ситуацию, помогли с выбором банка для
+                                микрофинансирования, спасибо!!!</p>
                         </div>
                         <div class="bg-white p-4 rounded shadow w-64 my-4">
-                            <img src="avatar3.jpg" alt="Аватар 3" class="w-16 h-16 rounded-full mx-auto">
-                            <h3 class="font-semibold text-center">Имя</h3>
-                            <p class="text-gray-900">текст отзыва.</p>
+
+                            <h3 class="font-semibold text-center">Руслан:</h3>
+                            <p class="text-gray-900">Сайт супер, выбрал дебетовку для доната в игры. Советую, спасибо!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -755,23 +807,32 @@
                         <div class="space-y-4">
                             <div class="bg-white p-4 rounded shadow">
                                 <h3 class="font-semibold cursor-pointer"
-                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Вопрос 1?</h3>
-                                <p class="hidden text-gray-900">Ответ на вопрос 1.</p>
+                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Одобрят ли мне МФО без
+                                    КИ (кредитной истории)?</h3>
+                                <p class="hidden text-gray-900">Это зависит от банка. Каждый банк относится к каждому
+                                    человеку индивидуально. Консультируйтесь у наших менеджеров.</p>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
                                 <h3 class="font-semibold cursor-pointer"
-                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Вопрос 2?</h3>
-                                <p class="hidden text-gray-900">Ответ на вопрос 2.</p>
+                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Какие документы
+                                    потребуются для заявки на МФО?</h3>
+                                <p class="hidden text-gray-900">Банки могут потребовать справку о доходах, трудовую
+                                    книжку, выписку из банка или другие документы, подтверждающие финансовое положение.
+                                </p>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
                                 <h3 class="font-semibold cursor-pointer"
-                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Вопрос 3?</h3>
-                                <p class="hidden text-gray-900">Ответ на вопрос 3.</p>
+                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Какая дебетовая карта
+                                    имеет наибольший кэшбэк?</h3>
+                                <p class="hidden text-gray-900">Для уточнения данного вопроса , пожалуйста, обратитесь к
+                                    нашим специалистам.</p>
                             </div>
                             <div class="bg-white p-4 rounded shadow">
                                 <h3 class="font-semibold cursor-pointer"
-                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Вопрос 4?</h3>
-                                <p class="hidden text-gray-900">Ответ на вопрос 4.</p>
+                                    onclick="this.nextElementSibling.classList.toggle('hidden')">Как пользоваться
+                                    кредитной картой выгодно?</h3>
+                                <p class="hidden text-gray-900">Важно обращать внимание на срок истечения льготного
+                                    периода и не забывать про минимальный платеж.</p>
                             </div>
                         </div>
                     </div>
